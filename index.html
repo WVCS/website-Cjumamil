@@ -1,15 +1,24 @@
-<html>
-<h1> Cooper Jumamil's Website
-	</h1>
-	
-	<p>This is a test. Thomas is fat.
-	</p>
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://i.pinimg.com/originals/d9/01/00/d90100e3f32197b9a4d9a3d3d475d23b.png">
-	<title> TAB TITLE </title>
-</head>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
 
+<div id="Apps" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p>
+</div>
 
-</html>
+<div id="Fat Thomas" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="Xavier's Mom" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
