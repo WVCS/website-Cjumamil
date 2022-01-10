@@ -1,37 +1,33 @@
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
+body {
+background-color:#f4f1de
+}
+
+ul{
+  list-style-type: none;
+  background-color: #826AED;
+  width: 100%;
+  overflow: higgen;
+  position: fixed;
+  text-align: center; 
+  left: 0;
+  top: 0;
   margin: 0;
-  font-family: Arial;
 }
 
-/* Style tab links */
-.tablink {
-  background-color: #555;
+li{
+  float: right;
+}
+
+li a {
+  display: block; // for help w3school.com
   color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: solid;
+  border-color: black;
 }
-
-.tablink:hover {
-  background-color: #777;
+li a:hover {
+  background-color: red;
+  color: red;
+  text-color: white;
 }
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
-function openPage(pageName, elmnt, color)
