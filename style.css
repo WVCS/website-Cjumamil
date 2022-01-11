@@ -2,11 +2,12 @@ body {
 background-color:#f4f1de
 }
 
-ul{
+ul {
   list-style-type: none;
-  background-color: #826AED;
+  text-color: #6D6466;
+  background-color: #6D6466;
   width: 100%;
-  overflow: higgen;
+  overflow: hidden;
   position: fixed;
   text-align: center; 
   left: 0;
@@ -15,19 +16,30 @@ ul{
 }
 
 li{
-  float: right;
+  float: left;
+  text-color: white;
 }
 
 li a {
-  display: block; // for help w3school.com
+  font-family: "Lucida console";
+  display: block;
   color: white;
   text-decoration: none;
   padding: 15px 50px;
-  border-style: solid;
+  border-style: hidden;
   border-color: black;
 }
 li a:hover {
-  background-color: red;
-  color: red;
+  background-color: #A7A0A1;
+  color: white;
   text-color: white;
+}
+
+h1{ /*this edits "Cooper Jumamil's Website"*/
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
 }
