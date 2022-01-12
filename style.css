@@ -44,7 +44,11 @@ p{
   font-size: 50px;
   border-style: double;
 }
-p1{
-  
-  border-style: double;
+
+img {
+  margin: auto;
+  width: 50%;
+  border: 10px solid #6D6466;
+  padding: 10px;
+  margin-left: 450px;
 }
