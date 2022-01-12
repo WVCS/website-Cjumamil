@@ -21,7 +21,7 @@ li{
 }
 
 li a {
-  font-family: "Lucida console";
+  font-family: "Georgia";
   display: block;
   color: white;
   text-decoration: none;
@@ -42,4 +42,9 @@ h1{ /*this edits "Cooper Jumamil's Website"*/
 p{
   text-align: center;
   font-size: 50px;
+  border-style: double;
+}
+p1{
+  
+  border-style: double;
 }
